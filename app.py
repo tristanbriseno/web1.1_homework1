@@ -57,7 +57,6 @@ def reverse_word(users_word):
     result = users_word[::-1]
     return result
 
-# Thank you to vik on StackOverflow for responding to a question regarding how to do this - my solution is largely based on his
 @app.route('/strangecaps/<user_word>')
 def make_strangecaps(user_word):
     """Makes user's word appear in alternating caps"""
